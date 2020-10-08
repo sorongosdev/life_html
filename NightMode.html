@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>club mode</title>
+    <style>
+    body {
+        background: red;
+      }</style>
+</head>
+
+<body>
+  <h1>WEB</h1>
+    <input id="night_day" type="button" value="orange" onclick="
+      if(document.querySelector('#night_day').value === 'orange'){
+        document.querySelector('body').style.backgroundColor = 'orange';
+        document.querySelector('#night_day').value = 'yellow';
+      } else if(document.querySelector('#night_day').value === 'yellow') {
+        document.querySelector('body').style.backgroundColor = 'yellow';
+        document.querySelector('#night_day').value = 'green';
+      }else if(document.querySelector('#night_day').value === 'green') {
+        document.querySelector('body').style.backgroundColor = 'green';
+        document.querySelector('#night_day').value = 'blue';
+      }else if(document.querySelector('#night_day').value === 'blue') {
+        document.querySelector('body').style.backgroundColor = 'blue';
+        document.querySelector('#night_day').value = 'purple';
+      }else if(document.querySelector('#night_day').value === 'purple') {
+        document.querySelector('body').style.backgroundColor = 'purple';
+        document.querySelector('#night_day').value = 'red';
+      }else if(document.querySelector('#night_day').value === 'red') {
+        document.querySelector('body').style.backgroundColor = 'red';
+        document.querySelector('#night_day').value = 'orange';
+      }
+
+    ">
+</body>
+
+</html>
